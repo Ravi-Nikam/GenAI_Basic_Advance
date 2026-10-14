@@ -15,13 +15,17 @@ venv/
 env/
 ENV/
 
+
 # Secrets and local environment configuration
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-
+*.pdf
+*.txt
+*.csv
+*.pickle
 # Jupyter's automatically generated checkpoint notebooks
 .ipynb_checkpoints/
 
@@ -35,7 +39,7 @@ dist/
 *.sqlite
 *.sqlite3
 *.log
-
+*.bin
 # Editor and operating-system files
 .vscode/
 .idea/
